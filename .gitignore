@@ -1,0 +1,15 @@
+# Backend
+placement-backend/target/
+*.log
+
+# Frontend
+placement-frontend/node_modules/
+placement-frontend/build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
