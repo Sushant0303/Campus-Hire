@@ -47,7 +47,61 @@ It enables students to explore and apply for job opportunities while allowing ad
 
 ## 📂 Project Structure
 
+Campus-Hire/
+│
+├── placement-backend/
+│   ├── src/main/java/com/placement/placementsystem
+│   │   ├── controller/
+│   │   ├── service/
+│   │   ├── repository/
+│   │   ├── entity/
+│   │   └── dto/
+│   │
+│   ├── src/main/resources/
+│   │   └── application.properties
+│   │
+│   └── pom.xml
+│
+├── placement-frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── pages/
+│   │   │   └── Navbar.js
+│   │   │
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   │
+│   │   ├── App.js
+│   │   └── index.js
+│   │
+│   └── package.json
+│
+└── README.md
 
+----
+
+**System Architecture Diagram**
+
+## 🏗️ System Architecture
+
++------------------+
+|   React Frontend |
+|  (Campus Hire)   |
++------------------+
+         |
+         |  REST API (Axios)
+         |
++----------------------+
+|  Spring Boot Backend |
+|  (Controllers,       |
+|   Services, JPA)     |
++----------------------+
+         |
+         |  JPA / Hibernate
+         |
++------------------+
+|     MySQL DB     |
++------------------+
 
 ---------------------------------------------------
 
